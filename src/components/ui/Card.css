@@ -1,0 +1,41 @@
+.card-base {
+    border: 1px solid #d1d5db;
+    /* border-gray-300 */
+    border-radius: 0.5rem;
+    /* rounded-lg */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* bg-white/70 */
+    backdrop-filter: blur(4px);
+    /* backdrop-blur-sm */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* shadow-md */
+}
+
+.card-header {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-description {
+    font-size: 0.875rem;
+    /* text-sm */
+    color: #4b5563;
+    /* text-gray-600 */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    /* text-xl */
+    font-weight: 600;
+    /* font-semibold */
+}

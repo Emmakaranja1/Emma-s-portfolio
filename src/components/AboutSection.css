@@ -1,0 +1,87 @@
+.about-section {
+    padding: 5rem 1rem;
+    background-color: #1f2937;
+}
+
+.about-container {
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+.about-heading {
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-align: center;
+    color: #60a5fa;
+    margin-bottom: 3rem;
+}
+
+.about-card-wrapper {
+    max-width: 56rem;
+    margin: 0 auto;
+}
+
+.about-card {
+    background-color: #374151;
+    border-color: #4b5563;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+    color: #60a5fa;
+}
+
+.about-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: linear-gradient(to right, #3b82f6, #ef4444);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-text {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    color: #d1d5db;
+}
+
+.about-subheading {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f87171;
+    margin-bottom: 1rem;
+}
+
+.about-badges {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+@media (min-width: 768px) {
+    .about-badges {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+
+.about-badge {
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #93c5fd;
+    border-color: #3b82f6;
+    padding: 0.5rem 0.75rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
