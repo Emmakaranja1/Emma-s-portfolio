@@ -30,9 +30,9 @@ This is a personal portfolio website built with **React** and **Vite** that show
 
 - **React** (with TypeScript)
 - **Vite** (build tool)
-- **Tailwind CSS** (for styling)
+- **CSS** (for styling)
 - **lucide-react** (icons)
-- **TypeScript** (for type safety)
+
 
 ---
 
@@ -66,28 +66,9 @@ npm run dev
 yarn dev
 ```
 
-Open your browser and navigate to `http://localhost:3000` to view the website.
+Open your browser and navigate to `http://localhost:3000` to view the website
 
----
 
-## Project Structure
-
-```
-src/
-├── components/
-│   ├── ui/
-│   │   ├── button.tsx
-│   │   ├── card.tsx
-│   │   └── badge.tsx
-│   ├── FractalTree.tsx
-│   └── ... (other components)
-├── pages/
-│   └── Index.tsx
-├── App.tsx
-└── main.tsx
-```
-
----
 
 ## Customization
 
@@ -99,13 +80,9 @@ src/
 
 ## Deployment
 
-To build your portfolio for production:
+deployment is through vercel
 
-```bash
-npm run build
-```
-
-The build output will be in the `dist/` folder, ready to be hosted on your preferred platform (Netlify, Vercel, GitHub Pages, etc.).
+The build output will be in the `dist/` folder, ready to be hosted on your preferred platform (Vercel, GitHub .).
 
 ---
 
