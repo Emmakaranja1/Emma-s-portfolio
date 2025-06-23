@@ -78,10 +78,6 @@ Open your browser and navigate to `http://localhost:3000` to view the website
 
 ---
 
-## Deployment
-
-deployment is through vercel
-
 The build output will be in the `dist/` folder, ready to be hosted on your preferred platform (Vercel, GitHub .).
 
 ---
@@ -108,3 +104,11 @@ For questions or collaborations, reach out via:
 ---
 
 Feel free to customize the URLs, project name, or any other details to better fit your project specifics.
+
+
+
+## Deployment
+
+deployment is through vercel
+
+https://emma-s-portfolio-nu.vercel.app/
