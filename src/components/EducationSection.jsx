@@ -36,7 +36,7 @@ export const EducationSection = () => {
                 KCA University - Nairobi, Ruaraka
               </CardTitle>
               <CardDescription className="education-description">
-                Diploma in IT
+                INFORMATION TECHNOLOGY
               </CardDescription>
               <Badge variant="secondary" className="education-badge purple">
                 SEP 2021 - JULY 2024
