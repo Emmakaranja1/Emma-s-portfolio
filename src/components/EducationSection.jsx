@@ -22,7 +22,7 @@ export const EducationSection = () => {
                 Full Stack Web Development, Python with Flask and JavaScript program
               </CardDescription>
               <Badge variant="secondary" className="education-badge green">
-                FEB 2024 - JULY 2024
+                FEB 2025 - JULY 2025
               </Badge>
             </CardHeader>
           </Card>
